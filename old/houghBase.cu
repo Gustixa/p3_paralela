@@ -156,6 +156,7 @@ void runExperiment(int kernelType, unsigned char *d_in, int *d_hough, int w, int
     }
 }
 
+
 int main(int argc, char **argv) {
     Image inImg(argv[1]);
 
