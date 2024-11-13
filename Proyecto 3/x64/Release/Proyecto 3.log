@@ -3,10 +3,10 @@
    Qt: 6.8.0
   window.cpp
   Generating code
-  13 of 454 functions ( 2.9%) were compiled, the rest were copied from previous compilation.
+  10 of 454 functions ( 2.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     11 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Proyecto 3.vcxproj -> C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\x64\Release\Proyecto 3.exe
-  Qt Deploy: "C:/Users/arg21/Documents/QT_installer/6.8.0/msvc2022_64/bin\windeployqt.exe" --list target --qmldir "C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\\" --dir C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\x64\Release\ "C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\x64\Release\Proyecto 3.exe"
+  Proyecto 3.vcxproj -> C:\Users\arg21\Documents\uvg\semestre8\PARALELA1\P31\x64\Release\Proyecto 3.exe
+  Qt Deploy: "C:/Users/arg21/Documents/QT_installer/6.8.0/msvc2022_64/bin\windeployqt.exe" --list target --qmldir "C:\Users\arg21\Documents\uvg\semestre8\PARALELA1\P31\Proyecto 3\\" --dir C:\Users\arg21\Documents\uvg\semestre8\PARALELA1\P31\x64\Release\ "C:\Users\arg21\Documents\uvg\semestre8\PARALELA1\P31\x64\Release\Proyecto 3.exe"
 EXEC : warning : Cannot find any version of the dxcompiler.dll and dxil.dll.
