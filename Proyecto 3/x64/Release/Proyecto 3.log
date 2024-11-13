@@ -1,16 +1,11 @@
 ﻿   Qt/MSBuild: 3.3.0.13
   Reading Qt configuration (C:/Users/arg21/Documents/QT_installer/6.8.0/msvc2022_64/bin/qmake)
    Qt: 6.8.0
-  cpu_hough.cpp
-  image.cpp
-  main.cpp
   window.cpp
-C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(29,7): warning C4101: 'x': unreferenced local variable
-C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(30,7): warning C4101: 'y': unreferenced local variable
   Generating code
-  444 of 456 functions (97.4%) were compiled, the rest were copied from previous compilation.
+  13 of 454 functions ( 2.9%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    11 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Proyecto 3.vcxproj -> C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\x64\Release\Proyecto 3.exe
   Qt Deploy: "C:/Users/arg21/Documents/QT_installer/6.8.0/msvc2022_64/bin\windeployqt.exe" --list target --qmldir "C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\\" --dir C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\x64\Release\ "C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\x64\Release\Proyecto 3.exe"

@@ -129,3 +129,25 @@ void Window::processCuda() {
 
 	printf("\nFinished");
 }
+
+
+void runHoughTransform(float* pcCos, float* pcSin, unsigned char* d_in, int width, int height, int* d_hough, float rMax, float rScale, const char* versionName) {
+	const int iterations = 10;  // Ejecutar el kernel 10 veces para obtener un promedio
+	float totalTime = 0.0;
+
+	for (int i = 0; i < iterations; i++) {
+		cudaMemset(d_hough, 0, sizeof(int) * DEG_BINS * RAD_BINS); // Reset del acumulador
+		auto start = std::chrono::high_resolution_clock::now();
+
+		// Llamada al kernel según el caso
+		GPU_HoughTran(pcCos, pcSin, d_in, width, height, d_hough, rMax, rScale);
+
+		cudaDeviceSynchronize(); // Esperar a que termine la ejecución
+		auto end = std::chrono::high_resolution_clock::now();
+		float elapsed = std::chrono::duration<float, std::milli>(end - start).count();
+		totalTime += elapsed;
+	}
+
+	float averageTime = totalTime / iterations;
+	printf("Tiempo promedio del kernel (%s): %f ms\n", versionName, averageTime);
+}
