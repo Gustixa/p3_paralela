@@ -27,8 +27,6 @@ const float radInc = degreeInc * M_PI / 180;
 
 __constant__ float d_Cos[degreeBins];
 __constant__ float d_Sin[degreeBins];
-float *d_Cos1;
-float *d_Sin1;
 
 // Kernel con solo memoria global
 __global__ void GPU_HoughTran_Global(unsigned char *pic, int w, int h, int *acc, float rMax, float rScale) {
@@ -42,7 +40,7 @@ __global__ void GPU_HoughTran_Global(unsigned char *pic, int w, int h, int *acc,
 
     if (pic[gloID] > 0) {
         for (int tIdx = 0; tIdx < degreeBins; tIdx++) {
-            float r = xCoord * d_Cos1[tIdx] + yCoord * d_Sin1[tIdx];
+            float r = xCoord * d_Cos[tIdx] + yCoord * d_Sin[tIdx];
             int rIdx = (r + rMax) / rScale;
             atomicAdd(&acc[rIdx * degreeBins + tIdx], 1);
         }
@@ -199,7 +197,9 @@ int main(int argc, char **argv) {
     cudaMemcpy(gpu_hough, d_hough, sizeof(int) * degreeBins * rBins, cudaMemcpyDeviceToHost);
 
     // compareResults(cpu_hough, gpu_hough, degreeBins * rBins);
-
+    // Liberación de memoria
+    cudaFree(d_Cos1);
+    cudaFree(d_Sin1);
     cleanup(d_in, d_hough, pcCos, pcSin, cpu_hough, gpu_hough);
     printf("Done!\n");
 
