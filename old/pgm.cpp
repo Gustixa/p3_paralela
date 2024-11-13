@@ -1,10 +1,32 @@
-// pgm.cpp
+/**
+ * @file pgm.cpp
+ * @brief Implementation of the PGMImage class for loading PGM (P5) images.
+ */
+
 #include "pgm.h"
 #include <fstream>
 #include <iostream>
 #include <stdexcept>
-#include <limits>  // Agregar esta línea
+#include <limits>
 
+/**
+ * @class PGMImage
+ * @brief A class for loading and managing grayscale PGM images in binary (P5) format.
+ *
+ * The PGMImage class provides functionality to load a PGM (P5) image from a file,
+ * handle its pixel data, and release memory upon destruction.
+ */
+
+/**
+ * @brief Constructs a PGMImage object by loading a PGM (P5) image from the specified file.
+ *
+ * This constructor opens a PGM file in binary mode and reads its header to verify
+ * the format, then loads the image dimensions and pixel data. If the file cannot
+ * be opened or if it is not a valid PGM (P5) image, an exception is thrown.
+ *
+ * @param filename The path to the PGM image file to load.
+ * @throw std::runtime_error if the file cannot be opened, is not in P5 format, or contains unsupported data.
+ */
 PGMImage::PGMImage(const char *filename) {
     std::ifstream file(filename, std::ios::binary);
     if (!file.is_open()) {
@@ -49,6 +71,11 @@ PGMImage::PGMImage(const char *filename) {
     file.close();
 }
 
+/**
+ * @brief Destructor for the PGMImage class.
+ *
+ * This destructor releases the memory allocated for the image pixel data.
+ */
 PGMImage::~PGMImage() {
     delete[] pixels;
 }
