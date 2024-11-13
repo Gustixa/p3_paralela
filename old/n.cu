@@ -1,14 +1,3 @@
-/*
- ============================================================================
- Author        : G. Barlas
- Version       : 1.0
- Last modified : December 2014
- License       : Released under the GNU GPL 3.0
- Description   :
- To build use  : make
- ============================================================================
- */
-// houghBase.cu
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -20,6 +9,7 @@
 #include "utils.h"
 #include "cpu_hough.h"
 #include "stb_image.h"
+#include <opencv2/opencv.hpp> // tener cuidado, falla a veces
 
 const int degreeInc = 2;
 const int degreeBins = 180 / degreeInc;
@@ -101,7 +91,7 @@ __global__ void GPU_HoughTran_ConstGlobalShared(unsigned char *pic, int w, int h
     }
 }
 
-
+// Función para ejecutar el experimento con diferentes configuraciones
 void runExperiment(int kernelType, unsigned char *d_in, int *d_hough, int w, int h, float rMax, float rScale, int numTrials) {
     std::vector<float> times;
     for (int i = 0; i < numTrials; i++) {
@@ -145,9 +135,38 @@ void runExperiment(int kernelType, unsigned char *d_in, int *d_hough, int w, int
     }
 }
 
+// Función para mostrar el acumulador de Hough
+void displayHoughAccumulator(int *h_acc, int degreeBins, int rBins) {
+    // Convertir el acumulador en una imagen
+    cv::Mat houghImage(rBins, degreeBins, CV_32S, h_acc);
 
+    // Imprimir los valores mínimos y máximos del acumulador
+    double minVal, maxVal;
+    cv::minMaxLoc(houghImage, &minVal, &maxVal);
+    std::cout << "Min value: " << minVal << ", Max value: " << maxVal << std::endl;
+
+    // Normalizar para que los valores vayan de 0 a 255
+    cv::Mat houghImageNorm;
+    cv::normalize(houghImage, houghImageNorm, 0, 255, cv::NORM_MINMAX, CV_8U);
+
+    // Crear una ventana y redimensionarla
+    std::string windowName = "Hough Transform Accumulator";
+    cv::namedWindow(windowName, cv::WINDOW_NORMAL);  // Usa cv::WINDOW_NORMAL para permitir el redimensionamiento
+    cv::resizeWindow(windowName, 800, 600);          // Ajusta el tamaño de la ventana a 800x600 (o el tamaño que prefieras)
+
+    // Mostrar la imagen del acumulador de Hough
+    cv::imshow(windowName, houghImageNorm);
+    cv::waitKey(0);
+}
+
+// Función principal
 int main(int argc, char **argv) {
+    // Inicialización de la imagen
     Image inImg(argv[1]);
+    if (!inImg.pixels) {
+        std::cerr << "Error: No se pudo cargar la imagen.\n";
+        return -1;
+    }
 
     int w = inImg.x_dim;
     int h = inImg.y_dim;
@@ -162,7 +181,7 @@ int main(int argc, char **argv) {
     cudaMemcpyToSymbol(d_Cos, pcCos, sizeof(float) * degreeBins);
     cudaMemcpyToSymbol(d_Sin, pcSin, sizeof(float) * degreeBins);
 
-    // GPU memory setup
+    // Configuración de memoria en la GPU
     unsigned char *d_in;
     int *d_hough;
     cudaMalloc((void **) &d_in, sizeof(unsigned char) * w * h);
@@ -179,7 +198,14 @@ int main(int argc, char **argv) {
     runExperiment(1, d_in, d_hough, w, h, rMax, rScale, numTrials); // Constante y Global
     runExperiment(2, d_in, d_hough, w, h, rMax, rScale, numTrials); // Constante, Global y Compartida
 
-    // Cleanup
+    // Copiar el acumulador desde la memoria del dispositivo a la memoria del host
+    // int *h_hough = (int *)malloc(sizeof(int) * degreeBins * rBins);
+    // cudaMemcpy(h_hough, d_hough, sizeof(int) * degreeBins * rBins, cudaMemcpyDeviceToHost);
+
+    // // Desplegar el acumulador de Hough
+    // displayHoughAccumulator(h_hough, degreeBins, rBins);
+
+    // Limpieza
     cleanup(d_in, d_hough, pcCos, pcSin, nullptr, nullptr);
     printf("Done!\n");
 
