@@ -1,0 +1,12 @@
+﻿   Qt/MSBuild: 3.3.0.13
+  Reading Qt configuration (C:/Users/arg21/Documents/QT_installer/6.8.0/msvc2022_64/bin/qmake)
+   Qt: 6.8.0
+  cpu_hough.cpp
+  image.cpp
+  main.cpp
+  window.cpp
+C:\Users\arg21\Documents\uvg\semestre8\PARALELA1\P31\Proyecto 3\cpu_hough.cpp(29,7): warning C4101: 'x': unreferenced local variable
+C:\Users\arg21\Documents\uvg\semestre8\PARALELA1\P31\Proyecto 3\cpu_hough.cpp(30,7): warning C4101: 'y': unreferenced local variable
+  Proyecto 3.vcxproj -> C:\Users\arg21\Documents\uvg\semestre8\PARALELA1\P31\x64\Debug\Proyecto 3.exe
+  Qt Deploy: "C:/Users/arg21/Documents/QT_installer/6.8.0/msvc2022_64/bin\windeployqt.exe" --list target --qmldir "C:\Users\arg21\Documents\uvg\semestre8\PARALELA1\P31\Proyecto 3\\" --dir C:\Users\arg21\Documents\uvg\semestre8\PARALELA1\P31\x64\Debug\ "C:\Users\arg21\Documents\uvg\semestre8\PARALELA1\P31\x64\Debug\Proyecto 3.exe"
+EXEC : warning : Cannot find any version of the dxcompiler.dll and dxil.dll.
