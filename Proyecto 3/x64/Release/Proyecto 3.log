@@ -5,12 +5,307 @@
   image.cpp
   main.cpp
   window.cpp
-C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(29,7): warning C4101: 'x': unreferenced local variable
-C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(30,7): warning C4101: 'y': unreferenced local variable
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x33 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\window.cpp(1,1): warning C4828: The file contains a character starting at offset 0x25e that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x133 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0x2f that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\main.cpp(1,1): warning C4828: The file contains a character starting at offset 0x43 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\window.cpp(1,1): warning C4828: The file contains a character starting at offset 0x272 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x16d that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0x67 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\main.cpp(1,1): warning C4828: The file contains a character starting at offset 0xac that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\window.cpp(1,1): warning C4828: The file contains a character starting at offset 0x295 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x1a0 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\main.cpp(1,1): warning C4828: The file contains a character starting at offset 0xc7 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0x2d6 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x1ef that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\main.cpp(1,1): warning C4828: The file contains a character starting at offset 0xeb that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0x34b that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x20b that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\main.cpp(1,1): warning C4828: The file contains a character starting at offset 0x155 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0x515 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x2bf that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\main.cpp(1,1): warning C4828: The file contains a character starting at offset 0x16d that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0x5bd that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x345 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\main.cpp(1,1): warning C4828: The file contains a character starting at offset 0x19f that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0x762 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x34e that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\main.cpp(1,1): warning C4828: The file contains a character starting at offset 0x1c3 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0x8f7 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x392 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\main.cpp(1,1): warning C4828: The file contains a character starting at offset 0x1e1 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0xa02 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x3d6 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0xaa2 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x3ee that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\image.cpp(1,1): warning C4828: The file contains a character starting at offset 0xb38 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x124f that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x129c that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x12da that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x131e that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x132f that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x1374 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x13a7 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(1,1): warning C4828: The file contains a character starting at offset 0x13f8 that is illegal in the current source character set (codepage 65001).
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x75 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x162 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x1ba that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x21b that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x226 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x271 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x300 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x364 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x377 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x37b that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x3b2 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x3d6 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x408 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x43a that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x480 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x4ac that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x587 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x5c9 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x63f that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x681 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x6df that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x717 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x757 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x799 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x79d that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x7a1 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x7b2 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'cpu_hough.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(46,7): warning C4101: 'x': unreferenced local variable
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.cpp(47,7): warning C4101: 'y': unreferenced local variable
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x75 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x162 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x1ba that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x21b that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x226 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x271 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x300 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x364 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x377 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x37b that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x3b2 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x3d6 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x408 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x43a that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x480 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x4ac that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x587 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x5c9 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x63f that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x681 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x6df that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x717 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x757 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x799 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x79d that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x7a1 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x7b2 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'window.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x75 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x162 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x1ba that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x21b that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x226 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x271 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x300 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x364 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x377 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x37b that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x3b2 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x3d6 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x408 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x43a that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x480 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x4ac that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x587 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x5c9 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x63f that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x681 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x6df that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x717 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x757 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x799 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x79d that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x7a1 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
+C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\cpu_hough.hpp(1,1): warning C4828: The file contains a character starting at offset 0x7b2 that is illegal in the current source character set (codepage 65001).
+  (compiling source file 'main.cpp')
+  
   Generating code
-  444 of 456 functions (97.4%) were compiled, the rest were copied from previous compilation.
+  0 of 454 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Proyecto 3.vcxproj -> C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\x64\Release\Proyecto 3.exe
   Qt Deploy: "C:/Users/arg21/Documents/QT_installer/6.8.0/msvc2022_64/bin\windeployqt.exe" --list target --qmldir "C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\Proyecto 3\\" --dir C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\x64\Release\ "C:\Users\arg21\Documents\uvg\semestre8\p3_paralela\x64\Release\Proyecto 3.exe"

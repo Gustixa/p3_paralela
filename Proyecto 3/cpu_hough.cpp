@@ -1,12 +1,29 @@
+/**
+ * @file cpu_hough.hpp
+ * @brief Implementación de la Transformada de Hough en la CPU.
+ */
+
 #include "cpu_hough.hpp"
-
 #include <cstring>
-
 #define _USE_MATH_DEFINES
 #include <math.h>
 #include <cmath>
 #include <vector>
 
+ /**
+  * @brief Realiza la Transformada de Hough en la CPU para detectar líneas y puntos en una imagen binaria.
+  *
+  * Esta función utiliza la Transformada de Hough para detectar líneas y puntos en una imagen de entrada.
+  * Los resultados se almacenan en imágenes de salida, y la función permite superponer las detecciones.
+  *
+  * @param input Imagen de entrada, debe estar en formato binario (0 o 255 por pixel).
+  * @param output_a Imagen de salida para las líneas detectadas.
+  * @param output_b Imagen de salida para los puntos detectados.
+  * @param output_overlay_a Imagen de superposición para líneas detectadas.
+  * @param output_overlay_b Imagen de superposición para puntos detectados.
+  * @param threshold Umbral de acumulación para considerar una línea o punto detectado.
+  * @param acc Puntero a un acumulador donde se almacena el conteo de (r, theta) para cada punto de la imagen.
+  */
 void CPU_HoughTran(const Image& input, Image& output_a, Image& output_b, Image& output_overlay_a, Image& output_overlay_b, const int& threshold, int** acc) {
 	const int degreeInc = 2;
 	const int degreeBins = 180 / degreeInc;
@@ -96,6 +113,17 @@ void CPU_HoughTran(const Image& input, Image& output_a, Image& output_b, Image& 
 	}
 }
 
+/**
+ * @brief Precalcula los valores de seno y coseno para optimizar la Transformada de Hough.
+ *
+ * Esta función almacena en arreglos los valores precalculados de seno y coseno para cada ángulo
+ * en los bins de grados, con el fin de optimizar el cálculo durante la Transformada de Hough.
+ *
+ * @param degreeBins Número de bins de ángulos en grados.
+ * @param radInc Incremento en radianes por cada ángulo.
+ * @param pcCos Puntero donde se almacenará el arreglo precalculado de cosenos.
+ * @param pcSin Puntero donde se almacenará el arreglo precalculado de senos.
+ */
 void precomputeTrig(int degreeBins, float radInc, float **pcCos, float **pcSin) {
 	*pcCos = (float *) malloc(sizeof(float) * degreeBins);
 	*pcSin = (float *) malloc(sizeof(float) * degreeBins);

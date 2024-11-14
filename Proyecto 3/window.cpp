@@ -1,3 +1,7 @@
+/**
+* @file window.hpp
+* @brief Clase Window para el procesamiento de la Transformada de Hough en CPU y GPU.
+*/
 #include "window.hpp"
 
 // Cuda Kernel
@@ -8,6 +12,11 @@ const int   DEG_BINS =  static_cast<int>(180.0 / static_cast<double>(DEG_INCREME
 const int   RAD_BINS = 100;
 const float RAD_INCREMENT = static_cast<float>(DEG_INCREMENT * M_PI / 180.0);
 
+/**
+ * @brief Constructor de la clase Window.
+ *
+ * Configura la interfaz gráfica, inicializa imágenes y realiza la primera ejecución de la Transformada de Hough en la CPU.
+ */
 Window::Window() {
 	image_a = new QLabel(this);
 	image_b = new QLabel(this);
@@ -83,6 +92,11 @@ Window::Window() {
 	});
 }
 
+/**
+ * @brief Destructor de la clase Window.
+ *
+ * Libera la memoria asignada en GPU y CPU, y realiza el procesamiento final en CUDA.
+ */
 Window::~Window() {
 	processCuda();
 	cudaFree(d_in);
@@ -93,6 +107,12 @@ Window::~Window() {
 	free(cpuht);
 }
 
+/**
+ * @brief Ejecuta la Transformada de Hough en GPU.
+ *
+ * Configura la memoria en GPU, copia los datos de la imagen y ejecuta el kernel de CUDA para calcular
+ * la Transformada de Hough. Luego, compara los resultados de CPU y GPU.
+ */
 void Window::processCuda() {
 	const int width = input_image.width;
 	const int height = input_image.height;
